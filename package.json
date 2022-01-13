@@ -12,6 +12,7 @@
   "dependencies": {
     "@architect/sandbox": "^4.4.2",
     "@begin/data": "^3.0.4",
+    "deno": "^0.1.1",
     "tap-arc": "^0.1.2",
     "tape": "^5.3.2",
     "tiny-json-http": "^7.3.1"
