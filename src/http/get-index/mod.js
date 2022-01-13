@@ -11,28 +11,26 @@ export async function handler (/*req: object*/) {
       /**
        * Basic bio
        */
-      fullname: 'Your Name', // ←  Start by adding your name!
-      title: 'My personal site!',
-      occupation: 'Artist & Photographer',
-      location: 'West Glacier, MT',
-      bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.',
+      fullname: 'Michael Perry', // ←  Start by adding your name!
+      title: 'Beyond The Horizon',
+      occupation: 'Web Developer & Photographer',
+      location: 'Hampton, VA',
+      bio: 'Specializing in serverless web developement using AWS.<br><br>--NO SERVERS ALLOWED--',
 
       /**
        * Contact / social
        * - Comment out any item below to remove it from your page
        */
-      email: 'your@email.com',
-      twitter: 'yourTwitter',
-      linkedin: 'your-linkedin-name',
-      instagram: 'yourInsta',
-      facebook: 'your-facebook-name',
+      email: 'mperry777@gmail.com',
+      twitter: 'virtling',
+      linkedin: 'virtualdevops',
 
       /**
        * Layout
-       */
-      photographer: 'Ivana Cajina',
-      service: 'Unsplash',
-      credit: 'https://unsplash.com/@von_co',
+       */ 
+      photographer: 'Michael Perry',
+      service: 'PhotoPrism',
+      /* credit: 'https://photos.bthviews.com/', */
       image: '_static/background.jpg'
     })
   }
